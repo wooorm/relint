@@ -10,11 +10,18 @@
   },
   "devDependencies": {
     "eslint": "^0.8.0",
-    "jscs": "^1.6.2"
+    "istanbul": "^0.3.2",
+    "jscs": "^1.6.2",
+    "mocha": "^1.21.4"
   },
   "scripts": {
+    "test": "node_modules/.bin/_mocha --reporter spec -u exports test",
+    "test-travis": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- --reporter spec test",
     "lint-api": "node_modules/.bin/eslint index.js lib",
-    "lint-style": "node_modules/.bin/jscs index.js lib --reporter=inline",
-    "lint": "npm run lint-api\nnpm run lint-style"
+    "lint-test": "node_modules/.bin/eslint --env mocha test",
+    "lint-style": "node_modules/.bin/jscs index.js lib test --reporter=inline",
+    "lint": "npm run lint-api\nnpm run lint-style\nnpm run lint-test",
+    "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -- test",
+    "make": "npm run lint\nnpm run coverage"
   }
 }
