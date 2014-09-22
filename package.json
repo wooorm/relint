@@ -9,10 +9,12 @@
     "url": "https://github.com/wooorm/relint.git"
   },
   "devDependencies": {
-    "eslint": "^0.8.0"
+    "eslint": "^0.8.0",
+    "jscs": "^1.6.2"
   },
   "scripts": {
     "lint-api": "node_modules/.bin/eslint index.js lib",
-    "lint": "npm run lint-api"
+    "lint-style": "node_modules/.bin/jscs index.js lib --reporter=inline",
+    "lint": "npm run lint-api\nnpm run lint-style"
   }
 }
