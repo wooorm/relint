@@ -11,6 +11,14 @@
   "bin": {
     "relint": "bin/relint"
   },
+  "dependencies": {
+    "retext": "^0.1.1",
+    "retext-ast": "^0.1.1",
+    "retext-content": "^0.2.1",
+    "retext-pos": "^0.1.2",
+    "retext-range": "^0.1.0",
+    "retext-visit": "^0.1.1"
+  },
   "devDependencies": {
     "eslint": "^0.8.0",
     "istanbul": "^0.3.0",
