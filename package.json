@@ -1,0 +1,11 @@
+{
+  "name": "relint",
+  "version": "0.0.0",
+  "description": "Detect grammar mistakes, write better, get suggestions, and fix English",
+  "author": "Titus Wormer <tituswormer@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wooorm/relint.git"
+  }
+}
