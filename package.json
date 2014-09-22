@@ -7,5 +7,12 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/wooorm/relint.git"
+  },
+  "devDependencies": {
+    "eslint": "^0.8.0"
+  },
+  "scripts": {
+    "lint-api": "node_modules/.bin/eslint index.js lib",
+    "lint": "npm run lint-api"
   }
 }
