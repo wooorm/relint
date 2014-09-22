@@ -10,9 +10,9 @@
   },
   "devDependencies": {
     "eslint": "^0.8.0",
-    "istanbul": "^0.3.2",
-    "jscs": "^1.6.2",
-    "mocha": "^1.21.4"
+    "istanbul": "^0.3.0",
+    "jscs": "^1.6.0",
+    "mocha": "^1.21.0"
   },
   "scripts": {
     "test": "node_modules/.bin/_mocha --reporter spec -u exports test",
