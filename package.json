@@ -8,9 +8,7 @@
     "type": "git",
     "url": "https://github.com/wooorm/relint.git"
   },
-  "bin": {
-    "relint": "bin/relint"
-  },
+  "bin": "bin/relint",
   "dependencies": {
     "chalk": "^0.5.1",
     "commander": "^2.3.0",
