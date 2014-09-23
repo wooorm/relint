@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-var cli;
+var cli,
+    exitCode;
 
 /**
  * Module dependencies.
@@ -12,4 +13,12 @@ cli = require('../lib/cli');
  * Start the CLI.
  */
 
-cli.execute(process.argv);
+exitCode = cli.execute(process.argv);
+
+/**
+ * Exit with `exitCode` when drained.
+ */
+
+process.on('exit', function() {
+    process.exit(exitCode);
+});
