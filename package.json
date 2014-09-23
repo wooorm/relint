@@ -12,12 +12,15 @@
     "relint": "bin/relint"
   },
   "dependencies": {
+    "chalk": "^0.5.1",
+    "commander": "^2.3.0",
     "retext": "^0.1.1",
     "retext-ast": "^0.1.1",
     "retext-content": "^0.2.1",
     "retext-pos": "^0.1.2",
     "retext-range": "^0.1.0",
-    "retext-visit": "^0.1.1"
+    "retext-visit": "^0.1.1",
+    "text-table": "^0.2.0"
   },
   "devDependencies": {
     "eslint": "^0.8.0",

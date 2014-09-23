@@ -1,1 +1,15 @@
 #!/usr/bin/env node
+
+var cli;
+
+/**
+ * Module dependencies.
+ */
+
+cli = require('../lib/cli');
+
+/**
+ * Start the CLI.
+ */
+
+cli.execute(process.argv);
