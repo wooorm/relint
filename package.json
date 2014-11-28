@@ -10,23 +10,30 @@
   },
   "bin": "bin/relint",
   "dependencies": {
-    "buzzwords": "^0.1.1",
+    "buzzwords": "^0.2.0",
     "chalk": "^0.5.1",
-    "commander": "^2.3.0",
-    "retext": "^0.1.1",
-    "retext-ast": "^0.1.1",
-    "retext-content": "^0.2.1",
-    "retext-pos": "^0.1.2",
-    "retext-range": "^0.1.0",
-    "retext-visit": "^0.1.1",
+    "commander": "^2.0.0",
+    "prompt": "^0.2.14",
+    "retext": "^0.4.0",
+    "retext-content": "^0.2.6",
+    "retext-cst": "^0.3.0",
+    "retext-find": "^0.1.3",
+    "retext-inspect": "^0.4.0",
+    "retext-pos": "^0.1.8",
+    "retext-range": "^0.2.0",
+    "retext-visit": "^0.2.2",
+    "retext-walk": "^0.1.3",
+    "string-length": "^1.0.0",
     "text-table": "^0.2.0",
-    "weasels": "^0.1.0"
+    "tmp": "^0.0.24",
+    "weasels": "^0.2.0",
+    "yn": "^1.1.0"
   },
   "devDependencies": {
-    "eslint": "^0.8.0",
+    "eslint": "^0.9.0",
     "istanbul": "^0.3.0",
-    "jscs": "^1.6.0",
-    "mocha": "^1.21.0"
+    "jscs": "^1.0.0",
+    "mocha": "^2.0.0"
   },
   "scripts": {
     "test": "node_modules/.bin/_mocha --reporter spec -u exports test",
