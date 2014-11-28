@@ -1,9 +1,9 @@
 {
   "env": {
-    "node": true,
-    "browser": true
+    "node": true
   },
   "rules": {
-    "quotes": [2, "single"]
+    "quotes": [2, "single"],
+    "no-process-exit": [0]
   }
 }
