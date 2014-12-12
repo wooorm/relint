@@ -7,11 +7,9 @@ Hey all! First, thanks a lot for watching, starring, and forking retext!
 Secondly, I wanted to invite you all to leave any feedback or issues you
 might have, to help me make retext even cooler :smile:.
 retext is an extensible natural language system—by default using
-parse-latin to transform natural language into a TextOM  object model.   
-Retext provides a pluggable system for analysing and manipulating natural
+parse-latin to transform natural language into a TextOM object model.  Retext provides a pluggable system for analysing and manipulating natural
 language in JavaScript, NodeJS, and the browser. Tests provide 100% coverage
 cloud HTML5.
-
 
 Rather than being a do-all library for Natural Language Processing
 (e.g., NLTK or OpenNLP), retext aims to be useful for more practical
