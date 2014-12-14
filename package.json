@@ -13,6 +13,7 @@
     "buzzwords": "^0.2.0",
     "chalk": "^0.5.1",
     "commander": "^2.0.0",
+    "hedges": "^0.2.1",
     "prompt": "^0.2.14",
     "retext": "^0.4.0",
     "retext-content": "^0.2.6",
