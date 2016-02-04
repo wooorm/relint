@@ -1,50 +1,5 @@
 {
   "name": "relint",
-  "version": "0.0.0",
-  "description": "Detect grammar mistakes, write better, get suggestions, and fix English",
-  "author": "Titus Wormer <tituswormer@gmail.com>",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wooorm/relint.git"
-  },
-  "bin": "bin/relint",
-  "dependencies": {
-    "buzzwords": "^0.2.0",
-    "chalk": "^0.5.1",
-    "commander": "^2.0.0",
-    "fillers": "^0.2.1",
-    "hedges": "^0.2.1",
-    "prompt": "^0.2.14",
-    "retext": "^0.4.0",
-    "retext-content": "^0.2.6",
-    "retext-cst": "^0.3.0",
-    "retext-find": "^0.1.3",
-    "retext-inspect": "^0.4.0",
-    "retext-pos": "^0.1.8",
-    "retext-range": "^0.2.0",
-    "retext-visit": "^0.2.2",
-    "retext-walk": "^0.1.3",
-    "text-table": "^0.2.0",
-    "tmp": "^0.0.24",
-    "weasels": "^0.2.0",
-    "yn": "^1.1.0"
-  },
-  "devDependencies": {
-    "eslint": "^0.10.0",
-    "istanbul": "^0.3.0",
-    "jscs": "^1.0.0",
-    "mocha": "^2.0.0",
-    "profanities": "^0.1.1"
-  },
-  "scripts": {
-    "test": "node_modules/.bin/_mocha --reporter spec -u exports test",
-    "test-travis": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- --reporter spec test",
-    "lint-api": "node_modules/.bin/eslint index.js lib",
-    "lint-test": "node_modules/.bin/eslint --env mocha test",
-    "lint-style": "node_modules/.bin/jscs index.js lib test --reporter=inline",
-    "lint": "npm run lint-api\nnpm run lint-style\nnpm run lint-test",
-    "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -- test",
-    "make": "npm run lint\nnpm run coverage"
-  }
+  "version": "0.0.1",
+  "description": "Deprecated"
 }
